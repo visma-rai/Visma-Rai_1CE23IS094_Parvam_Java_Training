@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Form with text and email input</h2>
+    <form action="/submit" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br>
+         <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br>
+    </form>
+     <h2>Select Gender</h2>
+    <form action="/submit" method="POST">
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender" value="male"><br>
+         <label for="female">Female:</label>
+        <input type="radio" id="female" name="gender" value="female"><br /><br />
+
+        <input type="submit"  value="submit"> 
+    </form>
+
+    <h2>Terms and Condition</h2>
+    <form action="/submit" method="POST">
+        <label>
+        <input type="checkbox" name="terms" required /> I agree to the terms and conditions </label><br /><br />
+
+        <input type="submit"  value="submit"> 
+    </form>  
+
+    <h3>Select a country</h3>
+    <form action="/submit" method="POST"></form>
+    <label for="country">Country:</label><br /><br />
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+       
+    </form>
+
+     <h4>Login Form</h4>
+     <form action="/submit" method="POST"></form>
+    <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="submit" value="Login">
+        <input type="reset" value="Clear">
+    </form>
+    
+</body>
+</html>
